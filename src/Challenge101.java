@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
-
+public class Challenge101 {
     public static void main(String args[]) {
         Scanner input = new Scanner(System.in);
         boolean loopAgain = true;
@@ -35,5 +34,6 @@ public class Main {
         }
         // If the user's input does not match the correctAnswer...
         // then the user is incorrect and we want to print out a message saying that the user is incorrect as well as what the correct choice was.
+
     }
 }
